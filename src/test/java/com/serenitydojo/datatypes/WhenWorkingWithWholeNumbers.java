@@ -14,7 +14,15 @@ public class WhenWorkingWithWholeNumbers {
 
         // TODO: create a new int variable called timeJump and assign it a value
         //  Next, add this variable to initialYear and assign the result to targetYear, so that targetYear is equal to 2015
+<<<<<<< HEAD
 
+=======
+        int timeJump = 2015 - initialYear;
+
+        targetYear = initialYear + timeJump;
+        System.out.println("TargetYear is " + targetYear);
+        
+>>>>>>> c7202ee (Completed datatypes homework assignments)
         assertThat(targetYear, equalTo(2015));
     }
 }
